@@ -10,7 +10,7 @@ const  app = express()
 
 const router = express.Router();
 
-const mongoose = require("./routes/database")
+const mongoose = require("./model/database")
 
 const user_detail = require("./model").user_detail
 
@@ -19,7 +19,7 @@ const usersBlog = require("./model").usersBlog
 
 const secret_key = process.env.SECRET_KEY
 
-var  isverify = require("./routes/middleware")
+var  isverify = require("./middleware/middleware")
 // console.log(isverify)
 
 
