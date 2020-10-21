@@ -17,7 +17,7 @@ Clone this app using the command:
 1. `cd Blog-App/`
 2. `npm install` to install the dependencies
 3. Create a .env file in the root directory of the project and update the required variable. You can use sample.env as the skeleton
-4. `npm start` to run the server. The server will run with auto reloading using nodemon.
+4. `npm start` to run the server. The server will run with auto reloading using nodemon
 
 ## run server with autoreload
   * `npm start`
