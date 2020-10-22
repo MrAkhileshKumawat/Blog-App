@@ -12,9 +12,9 @@ const router = express.Router();
 
 const mongoose = require("./model/database")
 
-const user_detail = require("./model").user_detail
+const user_detail = require("./model/model").user_detail
 
-const usersBlog = require("./model").usersBlog
+const usersBlog = require("./model/model").usersBlog
 // console.log(usersBlog)
 
 const secret_key = process.env.SECRET_KEY
